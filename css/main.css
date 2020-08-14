@@ -14,7 +14,7 @@ header {
     width: 100%;
 }
 
-header nav {
+nav {
     display: flex;
     justify-content: flex-end;
 }
@@ -44,4 +44,15 @@ header nav {
 .nav-right-section img {
     border-radius: 50%;
     margin-left: 10px;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.main-logo {
+    margin: 0 auto;
+    margin-bottom: 35px;
+    width: 530px;
 }
