@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-right-section {
+    align-items: center;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    list-style: none;
+    width: 250px;
+}
+
+.nav-right-section a {
+    margin-right: 10px;
+}
+
+.menu-icon {
+      background-image: url('https://static.thenounproject.com/png/756729-200.png'); 
+      background-position: center;
+      background-repeat: no-repeat; 
+      background-size: contain; /*Se aproxima al tamaño del contenedor*/
+      height: 25px;
+      width: 25px;
+}
+
+.nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
