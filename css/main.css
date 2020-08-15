@@ -33,6 +33,7 @@ nav {
     display: flex;
     height: auto;
     justify-content: center;
+    justify-self: right;
     width: 250px;
 }
 
@@ -185,5 +186,8 @@ footer ul {
 @media (max-width: 925px) {
     footer {
         display: none;
+    }
+    main {
+        margin-bottom: 30px;
     }
 }
