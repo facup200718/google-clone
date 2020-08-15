@@ -32,13 +32,24 @@ nav {
     margin-right: 10px;
 }
 
+.nav-right-section a:hover {
+    color: #5f6368;
+    text-decoration: underline;
+}
+
 .menu-icon {
-      background-image: url('https://static.thenounproject.com/png/756729-200.png'); 
-      background-position: center;
-      background-repeat: no-repeat; 
-      background-size: contain; /*Se aproxima al tamaño del contenedor*/
-      height: 25px;
-      width: 25px;
+    background-image: url('https://static.thenounproject.com/png/756729-200.png'); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; /*Se aproxima al tamaño del contenedor*/
+    height: 25px;
+    opacity: .45;
+    width: 25px;
+}
+
+.menu-icon:hover {
+    cursor: pointer;
+    opacity: 1;
 }
 
 .nav-right-section img {
@@ -128,4 +139,5 @@ main {
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px #9da2a8;
     color: #222;
+    cursor: pointer;
 }
