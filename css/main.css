@@ -9,6 +9,15 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
 header {
     height: 60px;
     width: 100%;
@@ -24,7 +33,6 @@ nav {
     display: flex;
     height: auto;
     justify-content: center;
-    list-style: none;
     width: 250px;
 }
 
@@ -34,7 +42,6 @@ nav {
 
 .nav-right-section a:hover {
     color: #5f6368;
-    text-decoration: underline;
 }
 
 .menu-icon {
@@ -140,4 +147,35 @@ main {
     box-shadow: 0 1px 1px #9da2a8;
     color: #222;
     cursor: pointer;
+}
+
+footer {
+    align-items: center;
+    background-color: rgb(242,242,242);
+    border: 1px solid #e4e4e4;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*2 fracciones*/
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+footer ul {
+    display: flex;
+    margin: 10px;
+    padding-left: 0;
+}
+
+.footer-left {
+    justify-self: left; /*MANDAR LIST A LA IZQ*/
+}
+
+.footer-right {
+    justify-self: right; /*MADAR LIST A LA DER*/
+}
+
+.footer-left a, .footer-right a {
+    color: rgb(95,99,104);
+    margin: 10px;
 }
