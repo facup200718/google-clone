@@ -179,3 +179,9 @@ footer ul {
     color: rgb(95,99,104);
     margin: 10px;
 }
+
+@media (max-width: 925px) {
+    footer {
+        display: none;
+    }
+}
